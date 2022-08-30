@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portopolio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        header{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .first{
+            position: absolute;
+            width: 100%;
+            height: 98%;
+            background-color: rgba(0, 0, 0, .4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        video{
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        #about{
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        figure{
+            width: 30%;
+        }
+
+        #about div{
+            width: 40%;
+        }
+
+        #about div p{
+            text-align: justify;
+        }
+
+        figure img{
+            width: 25vw;
+        }
+    </style>
+</head>
+<body>
+    <!-- untuk header -->
+    <header class="">
+        <div class="first text-center text-white">
+            <div><h1>IRMANSYAH</h1>
+                <p>Web Development | Android Development | Data Scienctist</p>
+            </div>
+        </div>
+        <video src="video/video.mp4" autoplay muted></video>
+    </header>
+
+    <section id="about">
+        <figure class="">
+            <img src="img/tahilalats.png" alt="tahilalats">
+        </figure>
+        <div>
+            <h2 class="text-center">Tentang Saya</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate animi tempora quod voluptatum id, libero cum hic facilis assumenda doloremque.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, beatae voluptatem cumque necessitatibus quam blanditiis!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minima, dicta quia facere dignissimos amet suscipit fugit tempore totam. Officia minima doloremque, ducimus nam maxime ut quo facilis beatae quidem.</p>
+        </div>
+    </section>
+    <section id="portopolio"></section>
+    <section id="message"></section>
+    <footer></footer>
+</body>
+</html>
