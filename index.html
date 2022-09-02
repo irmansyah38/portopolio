@@ -52,6 +52,48 @@
         figure img{
             width: 25vw;
         }
+
+        #portopolio{
+            min-height: 600px;
+            background-color: black;
+            padding: 20px;
+            
+        }
+
+        #portopolio .img-main{
+            margin-bottom: 50px;
+        }
+
+        #portopolio .img-main h2{
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+        #portopolio .img-main figure{
+            margin: auto;
+            box-sizing: border-box;
+        }
+        #portopolio .img-main figure img{
+            border: 3px solid white;
+            box-shadow: 0 0 2px 2px white;
+            border-radius: 5px;
+        }
+
+        #portopolio .img-second{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+
+        #portopolio .img-second img{
+            border: 3px solid white;
+            box-shadow: 0 0 2px 2px white;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
     </style>
 </head>
 <body>
@@ -76,8 +118,24 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore minima, dicta quia facere dignissimos amet suscipit fugit tempore totam. Officia minima doloremque, ducimus nam maxime ut quo facilis beatae quidem.</p>
         </div>
     </section>
-    <section id="portopolio"></section>
+    <section id="portopolio">
+        <div class="img-main">
+            <h2 >PORTOPOLIO</h2>
+            <figure>
+                <img src="img/luffy.jpg" alt="" id="img">
+            </figure>
+        </div>
+        <div class="img-second">
+            <img src="img/ace.jpg" alt="" id="img1">
+            <img src="img/dragon.jpg" alt="" id="img2">
+            <img src="img/garp.jpg" alt="" id="img3">
+            <img src="img/zoro.jpg" alt="" id="img4">
+            <img src="img/ussop.jpg" alt="" id="img5">
+            <img src="img/luffy.jpg" alt="" id="img6">
+        </div>
+    </section>
     <section id="message"></section>
     <footer></footer>
+    <script src="java.js"></script>
 </body>
 </html>
