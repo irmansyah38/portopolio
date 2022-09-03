@@ -94,6 +94,29 @@
             cursor: pointer;
         }
 
+        #message{
+            min-height: 600px;
+            padding: 20px;
+        }
+
+        #message header h2{
+            text-align: center;
+        }
+
+        #message div{
+            margin: auto;
+        }
+        footer{
+            min-height: 100px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer p{
+            color: white;
+            font-weight: 30px;
+        }
     </style>
 </head>
 <body>
@@ -134,8 +157,36 @@
             <img src="img/luffy.jpg" alt="" id="img6">
         </div>
     </section>
-    <section id="message"></section>
-    <footer></footer>
+    <section id="message">
+        <header>
+            <h2>Message</h2>
+        </header>
+        <div>
+            <form action="" method="post">
+                <div>
+                    <label for="nama">Nama</label>
+                    :
+                    <input type="text" name="nama" id="nama" size="20px" autocomplete="off">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    :
+                    <input type="email" name="email" id="email" size="20px" autocomplete="off">
+                </div>
+                <div>
+                    <textarea name="komen" id="" cols="60" rows="10"></textarea>
+                </div>
+                <div>
+                    <button name="submit" type="submit">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>By Desain @Irmansyah</p>
+        </div>
+    </footer>
     <script src="java.js"></script>
 </body>
 </html>
